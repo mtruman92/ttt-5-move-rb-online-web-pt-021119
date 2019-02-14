@@ -3,7 +3,7 @@ board[index] = "X"
 end
 def display_board(board)
 end
-def input_to_index(user_input).to be_a(Integer)
+expect(input_to_index(user_input)).to be_a(Integer)
 end
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
