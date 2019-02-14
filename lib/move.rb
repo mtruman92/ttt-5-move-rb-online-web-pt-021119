@@ -1,7 +1,8 @@
 def move(board,index)
 board[index] = "X"
 end
-display_board(board)
+def display_board(board)
+end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
